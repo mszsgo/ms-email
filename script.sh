@@ -4,7 +4,7 @@
 # 服务构建与部署脚本
 
 # 服务名
-NAME="proxy"
+NAME="email"
 VERSION="1.0.0"
 IMAGE="registry.cn-hangzhou.aliyuncs.com/mszs/$NAME"
 STACK_ENV="stack-umq-dev"
