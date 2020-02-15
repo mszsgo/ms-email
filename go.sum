@@ -1,0 +1,11 @@
+github.com/graphql-go/graphql v0.7.8 h1:769CR/2JNAhLG9+aa8pfLkKdR0H+r5lsQqling5WwpU=
+github.com/graphql-go/graphql v0.7.8/go.mod h1:k6yrAYQaSP59DC5UVxbgxESlmVyojThKdORUqGDGmrI=
+github.com/graphql-go/handler v0.2.3 h1:CANh8WPnl5M9uA25c2GBhPqJhE53Fg0Iue/fRNla71E=
+github.com/graphql-go/handler v0.2.3/go.mod h1:leLF6RpV5uZMN1CdImAxuiayrYYhOk33bZciaUGaXeU=
+github.com/mszsgo/hconfig v1.0.3 h1:PYwEmm2W1yolHW4gOpt2WWS31ybhgw9A9ycexL/N72w=
+github.com/mszsgo/hconfig v1.0.3/go.mod h1:QcVSrWUZQyRBCUHbEepVMLPz0Uk3fEZ6LTCkqpcHmfg=
+github.com/mszsgo/hgraph v0.1.14-0.20200215050524-3f3cc135d54b h1:yjEPJv9jYcgHjEhsxqMp8BYxZt9Gz0OGLF5U7aybU/Y=
+github.com/mszsgo/hgraph v0.1.14-0.20200215050524-3f3cc135d54b/go.mod h1:OeM+nwr3PX/llVEcMjqdhSolzXmW8ww+DR8RJvRWd/U=
+github.com/mszsgo/hjson v0.0.1/go.mod h1:FiOUAaflic7Blf2TZRHC+H3hBAT11RYA3E/ajPJyJTY=
+github.com/mszsgo/hjson v0.0.2 h1:JuUiBJ+D8SfL98MOwH/ojR+J3iPavlGiuAut+Z0VU7w=
+github.com/mszsgo/hjson v0.0.2/go.mod h1:FiOUAaflic7Blf2TZRHC+H3hBAT11RYA3E/ajPJyJTY=

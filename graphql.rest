@@ -1,0 +1,62 @@
+## 机构服务
+
+### query **************************************************************************************************************
+POST http://localhost/graphql
+Content-Type: application/graphql
+
+query {
+  org {
+    info(orgId: "1228599150640115712") {
+      address
+      blAddress
+      blBegTime
+      blBusinessScope
+      blEndTime
+      blImg
+      blLegalName
+      blName
+      blNumber
+      brandName
+      createdAt
+      leadName
+      leadPost
+      leadTel
+      logo
+      orgId
+      orgName
+      serviceTel
+      status
+      upid
+      updatedAt
+    }
+  }
+}
+
+
+
+### mutation ***********************************************************************************************************
+
+### 创建机构
+POST http://localhost/graphql
+Content-Type: application/graphql
+
+mutation{
+  org {
+    create(orgName:"中信银行",brandName:"中信"){orgId}
+  }
+}
+### response: {"data":{"org":{"createOrg":{"orgId":"1228599150640115712"}}}}
+
+### 更新机构
+POST http://localhost/graphql
+Content-Type: application/graphql
+
+mutation {
+  org {
+    update(orgId: "1228599150640115712", orgName: "中信银行", brandName: "中信", address: "上海静安区")
+  }
+}
+
+
+###
+
